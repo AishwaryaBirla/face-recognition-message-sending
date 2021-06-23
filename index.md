@@ -19,13 +19,13 @@ We have smtplib module in python that helps us in connecting to this server and 
 
 #### Task at hand- 
 upon recognizing a particular face.
-👉 It send mail to your mail id by writing this is face of your_name. 
-👉 Second it send whatsapp message to your friend, it can be anything.
+	👉 It send mail to your mail id by writing this is face of your_name. 
+	👉 Second it send whatsapp message to your friend, it can be anything.
 
 #### Approach- 
-	1. First, use the haar cascade classifier to recognize the face. Use cv2 model to crop the identified image and save it as a database.
-	2. Then create a private.py file having the login details, message, number defined by you. 
-	3. Device the programs to send mail and WhatsApp messages
-	4. finally, write a program to recognize a face and compare it with the database available, if it’s the same person, send message on mail and whatsapp. 
+1. First, use the haar cascade classifier to recognize the face. Use cv2 model to crop the identified image and save it as a database.
+2. Then create a private.py file having the login details, message, number defined by you. 
+3. Device the programs to send mail and WhatsApp messages
+4. finally, write a program to recognize a face and compare it with the database available, if it’s the same person, send message on mail and whatsapp. 
 
 #### Using this approach, you can try different applications of the technologies available. Give it a try!
